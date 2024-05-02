@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de datos de alumnos</title> 
+</head>
+<body>
+    <div class="container">
+        <h1>Base de datos de alumnos</h1>
+        <div id="form-container">
+            <h2>Alta de alumnos</h2>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <input type="text" id="apellidos" placeholder="Apellidos">
+            <input type="number" id="edad" placeholder="Edad">
+            <button onclick="altaAlumno()">Agregar Alumno</button>
+        </div>
+        <div id="alumnos-container">
+            <!-- Aquí se mostrarán los alumnos registrados -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
