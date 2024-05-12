@@ -19,7 +19,32 @@
         <div id="alumnos-container">
             <!-- Aquí se mostrarán los alumnos registrados -->
         </div>
+    <div>
+
+    </div class="form-container233">
+    <div id="inscribir-clase-form">
+        <h2>Inscribir alumno a clase</h2>
+        <select id="alumnos-select-clase"></select>
+        <input type="text" id="clase" placeholder="Clase">
+        <button onclick="inscribirAlumnoAClase()">Inscribir</button>
     </div>
+
+    <div id="asignar-calificacion-form">
+        <h2>Asignar calificación</h2>
+        <select id="alumnos-select-calificacion"></select>
+        <input type="text" id="materia" placeholder="Materia">
+        <input type="number" id="calificacion" placeholder="Calificación">
+        <button onclick="asignarCalificaciones()">Asignar</button>
+    </div>
+
+    <div id="crear-grupo-form">
+        <h2>Crear grupo y asignar alumnos</h2>
+        <input type="text" id="nombre-grupo" placeholder="Nombre del grupo">
+        <select id="alumnos-select" multiple></select>
+        <button onclick="crearGrupo()">Crear Grupo</button>
+    </div>
+    </div>
+    
 
     <script src="app.js"></script>
 
